@@ -87,3 +87,12 @@ BlobBase blobBase = BlobBase.getInstance(root);
 // turn compression on
 blobBase.setCompressed();
 ```
+## Builing Sources
+This SDK uses maven as its build system. Running mvn install will build the system.
+```bash
+$ mvn install
+```
+Their are tests that can be run as well (may require editing of database path). To run these
+```bash
+$ mvn test -DskipTests=false
+```
