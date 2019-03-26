@@ -119,7 +119,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  *
  * BlobBase can optionally compress files stored in it. Do do so create a
  * BlobBase and then set the compression flag.
- * <br></br>
+ * < br />
  * You can turn compression on later after creating a database but beware -
  * Compression once enabled can not be disabled.
  *
