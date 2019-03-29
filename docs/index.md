@@ -1,3 +1,3 @@
 ## JavaDocs ##
-https://jagger23.github.io/BlobBase/apidocs/index.html
+[JavaDoc](https://jagger23.github.io/BlobBase/apidocs/index.html)
 
