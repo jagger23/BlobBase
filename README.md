@@ -96,7 +96,7 @@ File root = new File("./myDb");
 // instantiate BlobBase
 BlobBase blobBase = BlobBase.getInstance(root);
 Map<String,Object> attrMap = map.getAttributeMap(123); // get attributes for object 123
-attrMap.put("testAttr", "hello world!");               // set our attribut
+attrMap.put("testAttr", "hello world!");               // set our attribute
 map.setAttributeMap(123, attrMap);                     // and update database
 ```
 
