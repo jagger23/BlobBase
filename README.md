@@ -87,6 +87,20 @@ BlobBase blobBase = BlobBase.getInstance(root);
 // turn compression on
 blobBase.setCompressed();
 ```
+## Setting Attributes ##
+You can attach attributes to be stored with you Blob files. This can be a handy way to store those extra bits of information we always seem to need.
+```java
+// set location  of database
+File root = new File("./myDb");
+
+// instantiate BlobBase
+BlobBase blobBase = BlobBase.getInstance(root);
+Map<String,Object> attrMap = map.getAttributeMap(123); // get attributes for object 123
+attrMap.put("testAttr", "hello world!");               // set our attribut
+map.setAttributeMap(123, attrMap);                     // and update database
+```
+
+
 ## Builing Sources
 This SDK uses maven as its build system. Running mvn install will build the system.
 ```bash
