@@ -103,7 +103,7 @@ map.setAttributeMap(123, attrMap);                     // and update database
 ```
 
 
-## Builing Sources
+## Building Sources
 This SDK uses maven as its build system. Running mvn install will build the system.
 ```bash
 $ mvn install
