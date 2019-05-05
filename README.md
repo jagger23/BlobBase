@@ -1,4 +1,4 @@
-!(docs/images/blobbase-logo.png)
+![](/docs/images/blobbase-logo.png)
 
 # BlobBase
 A Simple, Embeddable, Thread-Safe, Open Source, BLOB storage API.
